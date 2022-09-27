@@ -2,7 +2,9 @@
 The final project from data engineering zoomcamp from DataTalksClub
 
 <h1> Terraform (IaC) <h1>
-run 
+
+before the initializing infrustructure, it is necessary to run:  <br/>
+
 ```
 gcloud auth application-default login
 ```
