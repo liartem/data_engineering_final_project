@@ -1,5 +1,5 @@
 # data_engineering_final_project
-The final project from data engineering zoomcamp from DataTalksClub
+`The final project from data engineering zoomcamp from DataTalksClub`
 
 # Terraform (IaC)
 
@@ -25,9 +25,8 @@ terraform destroy
 ```
 # Airflow (Orchestrator)
 
-Airflow is used as a main orchestrator in this project. In order to run it, it is necessary to go to **airflow** folder and run following commands: <br/>
+Airflow is used as a main orchestrator in this project. In order to run it, it is necessary to go to `airflow` folder and run following commands: <br/>
 1) Build the Airflow Docker image: <br/>
-
 ```
 docker-compose build
 ```
