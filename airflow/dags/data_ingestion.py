@@ -52,7 +52,83 @@ def upload_to_gcs(bucket, object_name, local_file):
     blob1 = bucket.blob(object_name)
     blob1.upload_from_filename(local_file)
 
-
+schema = [
+    {
+        "name": "SampleNumber",
+        "type": "STRING",
+        "description": "Unique sample number"
+    },
+    {
+        "name": "ProductionArea",
+        "type": "STRING",
+        "description": "The name of area sample was taken"
+    },
+    {
+        "name":"BedID",
+        "type": "STRING",
+        "description": "Unique ID"
+    },
+    {
+        "name": "LocalAuthority",
+        "type": "STRING",
+        "description": "Indicate the responsible authority"
+    },
+    {
+        "name": "GridReference",
+        "type": "STRING",
+        "description": "Unique number of GridReference"
+    },
+    {
+        "name": "SamplingPoint",
+        "type": "STRING",
+        "description": "SamplingPoint"
+    },
+    {
+        "name": "DateSampleCollected",
+        "type": "DATE",
+        "description": "the date of collection"
+    },
+    {
+        "name": "SpeciesSampled",
+        "type": "INTEGER",
+        "description": "species used during sample procedure"
+    },
+    {
+        "name": "PSP_HPLCScreenResult_Detected_ND_",
+        "type": "STRING",
+        "description": ""
+    },
+    {
+        "name": "PSP_HPLC_Microgram_STXeq_per_kg_SemiquantResult__400__400",
+        "type": "STRING",
+        "description": ""
+    },
+    {
+        "name": "PSP_HPLCResult__Microgram_STXeq_per_kg_HighValueCalculatedFromMU",
+        "type": "STRING",
+        "description": ""
+    },
+    {
+        "name": "TotalOA_DTXs_PTXs_Microgram_OA_eq_per_kg_HighValueCalculatedFromMU",
+        "type": "TIMESTAMP",
+        "description": ""
+    },
+    {
+        "name": "TotalAZAS__Microgram_AZA1_eq_per_kg_HighValueCalculatedFromMU",
+        "type": "FLOAT64",
+        "description": ""
+    },
+    {
+        "name": "TotalYTXS_mg_YTX_eq_per_kg_HighValueCalculatedFromMU",
+        "type": "STRING",
+        "description": ""
+    },
+    {
+        "name": "ASP_mgPerkg_",
+        "type": "STRING",
+        "description": ""
+    }
+]
 
 with DAG(
     dag_id="data_ingestion",
@@ -94,7 +170,10 @@ with DAG(
             "tableReference": {
                 "projectId": PROJECT_ID,
                 "datasetId": BIGQUERY_DATASET,
-                "tableId": "biotoxin_data_table_id",
+                "tableId": "biotoxin_data_raw",
+            },
+            "schema": {
+                "fields": schema
             },
             "externalDataConfiguration": {
                 "sourceFormat": "PARQUET",
