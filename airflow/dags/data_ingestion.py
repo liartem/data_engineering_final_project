@@ -27,6 +27,7 @@ parquet_file = f"Biotoxin+Results+2021+160322.parquet"
 
 PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
+BIGQUERY_DATASET = 'final_project_raw_data'
 
 default_args = {
     "owner": "airflow",
@@ -68,6 +69,7 @@ with DAG(
         bash_command=f'curl -sSLf {url} > {path_to_local_home}/{file_name_raw}'
     )
 
+
     convert_to_parquet_task = PythonOperator(
         task_id="convert_to_parquet_task",
         python_callable=convert_to_parquet,
@@ -86,6 +88,21 @@ with DAG(
         },
     )
 
+    bigquery_external_table_task = BigQueryCreateExternalTableOperator(
+        task_id="bigquery_external_table_task",
+        table_resource={
+            "tableReference": {
+                "projectId": PROJECT_ID,
+                "datasetId": BIGQUERY_DATASET,
+                "tableId": "biotoxin_data_table_id",
+            },
+            "externalDataConfiguration": {
+                "sourceFormat": "PARQUET",
+                "sourceUris": [f"gs://{BUCKET}/raw/{parquet_file}"],
+            },
+        },
+    )
+
 if __name__ == '__main__':
 
-    download_dataset_task >> convert_to_parquet_task >> upload_to_gcs_task
+    download_dataset_task >> convert_to_parquet_task >> upload_to_gcs_task >> bigquery_external_table_task
