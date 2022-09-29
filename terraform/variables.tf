@@ -8,7 +8,7 @@ variable "project" {
 
 variable "region" {
   description = "Region for GCP resources."
-  default = "europe-west6"
+  default = "US" #necessary for dbt configuration
   type = string
 }
 
