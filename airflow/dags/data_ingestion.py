@@ -23,11 +23,11 @@ import pyarrow.csv as pv
 
 
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
-url = f"https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-8/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file"
-file_name_zip = f"GHG_projections_2021_EEA.zip"
-file_name_csv = f"GHG_projections_2021_EEA.csv"
+url = f"https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-8/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file"
+file_name_zip = f"GHG_projections_2019_EEA.zip"
+file_name_csv = f"GHG_projections_2019_EEA.csv"
 
-parquet_file = f"GHG_projections_2021_EEA.parquet"
+parquet_file = f"GHG_projections_2019_EEA.parquet"
 
 PROJECT_ID = os.environ.get("GCP_PROJECT_ID")
 BUCKET = os.environ.get("GCP_GCS_BUCKET")
