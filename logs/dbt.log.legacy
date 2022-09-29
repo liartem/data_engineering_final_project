@@ -103,3 +103,15 @@
 2022-09-29 11:39:14.763922 (Thread-15): handling status request
 2022-09-29 11:39:14.765599 (Thread-15): 11:39:14  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '26312c2c-7d88-4b5c-83b3-e4272e2fbe51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f90b82608e0>]}
 2022-09-29 11:39:14.766698 (Thread-15): sending response (<Response 26484 bytes [200 OK]>) to 10.0.10.170
+2022-09-29 11:39:17.177035 (Thread-16): 11:39:17  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-09-29 11:39:17.177224 (Thread-16): 11:39:17  Partial parsing enabled, no changes found, skipping parsing
+2022-09-29 11:39:17.182487 (Thread-16): 11:39:17  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '26312c2c-7d88-4b5c-83b3-e4272e2fbe51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f90941e3910>]}
+2022-09-29 11:39:17.813707 (Thread-17): handling status request
+2022-09-29 11:39:17.814053 (Thread-17): 11:39:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '26312c2c-7d88-4b5c-83b3-e4272e2fbe51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f90941dc280>]}
+2022-09-29 11:39:17.814513 (Thread-17): sending response (<Response 1270 bytes [200 OK]>) to 10.0.10.170
+2022-09-29 11:39:17.885040 (Thread-18): handling status request
+2022-09-29 11:39:17.885315 (Thread-18): 11:39:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '26312c2c-7d88-4b5c-83b3-e4272e2fbe51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f90941dc1c0>]}
+2022-09-29 11:39:17.885714 (Thread-18): sending response (<Response 1270 bytes [200 OK]>) to 10.0.10.170
+2022-09-29 11:39:32.049717 (Thread-19): handling status request
+2022-09-29 11:39:32.051388 (Thread-19): 11:39:32  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '26312c2c-7d88-4b5c-83b3-e4272e2fbe51', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f90941d9970>]}
+2022-09-29 11:39:32.051849 (Thread-19): sending response (<Response 1270 bytes [200 OK]>) to 10.0.10.170
