@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+    - name: staging
+      database: de-zoomcamp-artem
+      schema: final_project_raw_data
+
+      tables: 
+        - name: GHG_projections
