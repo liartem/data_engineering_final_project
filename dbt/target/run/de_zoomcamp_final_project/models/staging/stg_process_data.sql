@@ -1,9 +1,18 @@
 
 
-  create or replace view `de-zoomcamp-artem`.`dbt_ali`.`stg_process_data`
+  create or replace table `de-zoomcamp-artem`.`dbt_ali`.`stg_process_data`
+  
+  
   OPTIONS()
-  as 
+  as (
+    
 
-select * from `de-zoomcamp-artem`.`final_project_raw_data`.`GHG_projections`
-limit 100;
+select * 
+except (RY_calibration, Gapfilled)
 
+
+
+from `de-zoomcamp-artem`.`final_project_raw_data`.`GHG_projections_2019`
+limit 100
+  );
+  

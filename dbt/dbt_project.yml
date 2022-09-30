@@ -33,5 +33,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 models:
   de_zoomcamp_final_project:
-    # Applies to all files under models/example/
-
+    # Applies to all files under models/
+    staging:
+        materialized: table

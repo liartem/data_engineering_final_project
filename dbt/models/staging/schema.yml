@@ -6,4 +6,9 @@ sources:
       schema: final_project_raw_data
 
       tables: 
-        - name: GHG_projections
+        - name: GHG_projections_2021
+        - name: GHG_projections_2019
+      
+models:
+  - name: dbt_transform
+    description: ''
