@@ -7197,3 +7197,241 @@ limit 1000
 2022-09-30 11:05:17.308513 (Thread-404): handling status request
 2022-09-30 11:05:17.310041 (Thread-404): 11:05:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f723043df70>]}
 2022-09-30 11:05:17.311200 (Thread-404): sending response (<Response 29706 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 11:05:20.657489 (Thread-405): 11:05:20  Unable to do partial parsing because config vars, config profile, or config target have changed
+2022-09-30 11:05:20.657841 (Thread-405): 11:05:20  Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f723048a850>]}
+2022-09-30 11:05:20.687485 (Thread-405): 11:05:20  Parsing macros/adapters.sql
+2022-09-30 11:05:20.710530 (Thread-405): 11:05:20  Parsing macros/etc.sql
+2022-09-30 11:05:20.712392 (Thread-405): 11:05:20  Parsing macros/catalog.sql
+2022-09-30 11:05:20.717932 (Thread-405): 11:05:20  Parsing macros/adapters/apply_grants.sql
+2022-09-30 11:05:20.720500 (Thread-405): 11:05:20  Parsing macros/utils/right.sql
+2022-09-30 11:05:20.721182 (Thread-405): 11:05:20  Parsing macros/utils/split_part.sql
+2022-09-30 11:05:20.722493 (Thread-405): 11:05:20  Parsing macros/utils/safe_cast.sql
+2022-09-30 11:05:20.723083 (Thread-405): 11:05:20  Parsing macros/utils/bool_or.sql
+2022-09-30 11:05:20.723571 (Thread-405): 11:05:20  Parsing macros/utils/date_trunc.sql
+2022-09-30 11:05:20.724144 (Thread-405): 11:05:20  Parsing macros/utils/hash.sql
+2022-09-30 11:05:20.724687 (Thread-405): 11:05:20  Parsing macros/utils/datediff.sql
+2022-09-30 11:05:20.726044 (Thread-405): 11:05:20  Parsing macros/utils/dateadd.sql
+2022-09-30 11:05:20.726716 (Thread-405): 11:05:20  Parsing macros/utils/except.sql
+2022-09-30 11:05:20.727157 (Thread-405): 11:05:20  Parsing macros/utils/position.sql
+2022-09-30 11:05:20.727734 (Thread-405): 11:05:20  Parsing macros/utils/escape_single_quotes.sql
+2022-09-30 11:05:20.728332 (Thread-405): 11:05:20  Parsing macros/utils/listagg.sql
+2022-09-30 11:05:20.729347 (Thread-405): 11:05:20  Parsing macros/utils/intersect.sql
+2022-09-30 11:05:20.729750 (Thread-405): 11:05:20  Parsing macros/materializations/table.sql
+2022-09-30 11:05:20.734072 (Thread-405): 11:05:20  Parsing macros/materializations/seed.sql
+2022-09-30 11:05:20.736546 (Thread-405): 11:05:20  Parsing macros/materializations/incremental.sql
+2022-09-30 11:05:20.751593 (Thread-405): 11:05:20  Parsing macros/materializations/copy.sql
+2022-09-30 11:05:20.754244 (Thread-405): 11:05:20  Parsing macros/materializations/snapshot.sql
+2022-09-30 11:05:20.755870 (Thread-405): 11:05:20  Parsing macros/materializations/view.sql
+2022-09-30 11:05:20.758553 (Thread-405): 11:05:20  Parsing macros/adapters/metadata.sql
+2022-09-30 11:05:20.765353 (Thread-405): 11:05:20  Parsing macros/adapters/columns.sql
+2022-09-30 11:05:20.774644 (Thread-405): 11:05:20  Parsing macros/adapters/freshness.sql
+2022-09-30 11:05:20.777466 (Thread-405): 11:05:20  Parsing macros/adapters/persist_docs.sql
+2022-09-30 11:05:20.781699 (Thread-405): 11:05:20  Parsing macros/adapters/apply_grants.sql
+2022-09-30 11:05:20.795035 (Thread-405): 11:05:20  Parsing macros/adapters/relation.sql
+2022-09-30 11:05:20.809241 (Thread-405): 11:05:20  Parsing macros/adapters/schema.sql
+2022-09-30 11:05:20.811477 (Thread-405): 11:05:20  Parsing macros/adapters/indexes.sql
+2022-09-30 11:05:20.814161 (Thread-405): 11:05:20  Parsing macros/get_custom_name/get_custom_schema.sql
+2022-09-30 11:05:20.816621 (Thread-405): 11:05:20  Parsing macros/get_custom_name/get_custom_alias.sql
+2022-09-30 11:05:20.818167 (Thread-405): 11:05:20  Parsing macros/get_custom_name/get_custom_database.sql
+2022-09-30 11:05:20.820031 (Thread-405): 11:05:20  Parsing macros/utils/literal.sql
+2022-09-30 11:05:20.821236 (Thread-405): 11:05:20  Parsing macros/utils/data_types.sql
+2022-09-30 11:05:20.827334 (Thread-405): 11:05:20  Parsing macros/utils/replace.sql
+2022-09-30 11:05:20.828601 (Thread-405): 11:05:20  Parsing macros/utils/right.sql
+2022-09-30 11:05:20.829716 (Thread-405): 11:05:20  Parsing macros/utils/split_part.sql
+2022-09-30 11:05:20.831756 (Thread-405): 11:05:20  Parsing macros/utils/safe_cast.sql
+2022-09-30 11:05:20.832882 (Thread-405): 11:05:20  Parsing macros/utils/cast_bool_to_text.sql
+2022-09-30 11:05:20.833963 (Thread-405): 11:05:20  Parsing macros/utils/any_value.sql
+2022-09-30 11:05:20.834945 (Thread-405): 11:05:20  Parsing macros/utils/bool_or.sql
+2022-09-30 11:05:20.836040 (Thread-405): 11:05:20  Parsing macros/utils/date_trunc.sql
+2022-09-30 11:05:20.837112 (Thread-405): 11:05:20  Parsing macros/utils/hash.sql
+2022-09-30 11:05:20.838197 (Thread-405): 11:05:20  Parsing macros/utils/datediff.sql
+2022-09-30 11:05:20.839469 (Thread-405): 11:05:20  Parsing macros/utils/dateadd.sql
+2022-09-30 11:05:20.840726 (Thread-405): 11:05:20  Parsing macros/utils/last_day.sql
+2022-09-30 11:05:20.842515 (Thread-405): 11:05:20  Parsing macros/utils/except.sql
+2022-09-30 11:05:20.843391 (Thread-405): 11:05:20  Parsing macros/utils/position.sql
+2022-09-30 11:05:20.844499 (Thread-405): 11:05:20  Parsing macros/utils/length.sql
+2022-09-30 11:05:20.845462 (Thread-405): 11:05:20  Parsing macros/utils/concat.sql
+2022-09-30 11:05:20.846446 (Thread-405): 11:05:20  Parsing macros/utils/escape_single_quotes.sql
+2022-09-30 11:05:20.847528 (Thread-405): 11:05:20  Parsing macros/utils/listagg.sql
+2022-09-30 11:05:20.849887 (Thread-405): 11:05:20  Parsing macros/utils/intersect.sql
+2022-09-30 11:05:20.850733 (Thread-405): 11:05:20  Parsing macros/etc/datetime.sql
+2022-09-30 11:05:20.858622 (Thread-405): 11:05:20  Parsing macros/etc/statement.sql
+2022-09-30 11:05:20.862914 (Thread-405): 11:05:20  Parsing macros/generic_test_sql/unique.sql
+2022-09-30 11:05:20.863642 (Thread-405): 11:05:20  Parsing macros/generic_test_sql/not_null.sql
+2022-09-30 11:05:20.864469 (Thread-405): 11:05:20  Parsing macros/generic_test_sql/accepted_values.sql
+2022-09-30 11:05:20.865808 (Thread-405): 11:05:20  Parsing macros/generic_test_sql/relationships.sql
+2022-09-30 11:05:20.866678 (Thread-405): 11:05:20  Parsing macros/materializations/configs.sql
+2022-09-30 11:05:20.869306 (Thread-405): 11:05:20  Parsing macros/materializations/hooks.sql
+2022-09-30 11:05:20.873157 (Thread-405): 11:05:20  Parsing macros/materializations/models/table/table.sql
+2022-09-30 11:05:20.878250 (Thread-405): 11:05:20  Parsing macros/materializations/models/table/create_table_as.sql
+2022-09-30 11:05:20.881047 (Thread-405): 11:05:20  Parsing macros/materializations/models/view/create_or_replace_view.sql
+2022-09-30 11:05:20.884257 (Thread-405): 11:05:20  Parsing macros/materializations/models/view/helpers.sql
+2022-09-30 11:05:20.885540 (Thread-405): 11:05:20  Parsing macros/materializations/models/view/create_view_as.sql
+2022-09-30 11:05:20.887779 (Thread-405): 11:05:20  Parsing macros/materializations/models/view/view.sql
+2022-09-30 11:05:20.893017 (Thread-405): 11:05:20  Parsing macros/materializations/models/incremental/incremental.sql
+2022-09-30 11:05:20.901700 (Thread-405): 11:05:20  Parsing macros/materializations/models/incremental/on_schema_change.sql
+2022-09-30 11:05:20.916027 (Thread-405): 11:05:20  Parsing macros/materializations/models/incremental/is_incremental.sql
+2022-09-30 11:05:20.917505 (Thread-405): 11:05:20  Parsing macros/materializations/models/incremental/merge.sql
+2022-09-30 11:05:20.932901 (Thread-405): 11:05:20  Parsing macros/materializations/models/incremental/column_helpers.sql
+2022-09-30 11:05:20.937134 (Thread-405): 11:05:20  Parsing macros/materializations/seeds/helpers.sql
+2022-09-30 11:05:20.954458 (Thread-405): 11:05:20  Parsing macros/materializations/seeds/seed.sql
+2022-09-30 11:05:20.961229 (Thread-405): 11:05:20  Parsing macros/materializations/tests/helpers.sql
+2022-09-30 11:05:20.962972 (Thread-405): 11:05:20  Parsing macros/materializations/tests/test.sql
+2022-09-30 11:05:20.967189 (Thread-405): 11:05:20  Parsing macros/materializations/tests/where_subquery.sql
+2022-09-30 11:05:20.968953 (Thread-405): 11:05:20  Parsing macros/materializations/snapshots/helpers.sql
+2022-09-30 11:05:20.981142 (Thread-405): 11:05:20  Parsing macros/materializations/snapshots/strategies.sql
+2022-09-30 11:05:20.997301 (Thread-405): 11:05:20  Parsing macros/materializations/snapshots/snapshot_merge.sql
+2022-09-30 11:05:20.998921 (Thread-405): 11:05:20  Parsing macros/materializations/snapshots/snapshot.sql
+2022-09-30 11:05:21.010402 (Thread-405): 11:05:21  Parsing tests/generic/builtin.sql
+2022-09-30 11:05:21.248709 (Thread-405): 11:05:21  1699: static parser successfully parsed staging/stg_process_data_2019.sql
+2022-09-30 11:05:21.251392 (Thread-405): 11:05:21  1699: static parser successfully parsed staging/stg_process_data_2021.sql
+2022-09-30 11:05:21.268095 (Thread-405): 11:05:21  [WARNING]: Did not find matching node for patch with name 'my_first_dbt_model' in the 'models' section of file 'models/example/schema.yml'
+2022-09-30 11:05:21.269685 (Thread-405): 11:05:21  [WARNING]: Did not find matching node for patch with name 'my_second_dbt_model' in the 'models' section of file 'models/example/schema.yml'
+2022-09-30 11:05:21.278741 (Thread-405): 11:05:21  [WARNING]: Did not find matching node for patch with name 'dbt_transform' in the 'models' section of file 'models/staging/schema.yml'
+2022-09-30 11:05:21.282530 (Thread-405): 11:05:21  [WARNING]: Test 'test.de_zoomcamp_final_project.unique_my_first_dbt_model_id.16e066b321' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' which was not found
+2022-09-30 11:05:21.282782 (Thread-405): 11:05:21  [WARNING]: Test 'test.de_zoomcamp_final_project.not_null_my_first_dbt_model_id.5fb22c2710' (models/example/schema.yml) depends on a node named 'my_first_dbt_model' which was not found
+2022-09-30 11:05:21.283020 (Thread-405): 11:05:21  [WARNING]: Test 'test.de_zoomcamp_final_project.unique_my_second_dbt_model_id.57a0f8c493' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' which was not found
+2022-09-30 11:05:21.283229 (Thread-405): 11:05:21  [WARNING]: Test 'test.de_zoomcamp_final_project.not_null_my_second_dbt_model_id.151b76d778' (models/example/schema.yml) depends on a node named 'my_second_dbt_model' which was not found
+2022-09-30 11:05:21.335341 (Thread-405): 11:05:21  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303aab50>]}
+2022-09-30 11:05:21.388529 (Thread-406): handling status request
+2022-09-30 11:05:21.388793 (Thread-406): 11:05:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303f55e0>]}
+2022-09-30 11:05:21.389766 (Thread-406): sending response (<Response 29706 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 11:05:21.504801 (Thread-407): handling status request
+2022-09-30 11:05:21.505051 (Thread-407): 11:05:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303f50a0>]}
+2022-09-30 11:05:21.505975 (Thread-407): sending response (<Response 29706 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:16.967123 (Thread-408): handling status request
+2022-09-30 12:48:16.967547 (Thread-408): 12:48:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303d12e0>]}
+2022-09-30 12:48:16.968711 (Thread-408): sending response (<Response 29706 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:16.972914 (Thread-409): handling ps request
+2022-09-30 12:48:16.973191 (Thread-409): 12:48:16  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303bb100>]}
+2022-09-30 12:48:16.975241 (Thread-409): sending response (<Response 19969 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:17.139485 (Thread-410): handling status request
+2022-09-30 12:48:17.139936 (Thread-410): 12:48:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303d15b0>]}
+2022-09-30 12:48:17.141081 (Thread-410): sending response (<Response 29706 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:17.148084 (Thread-411): handling status request
+2022-09-30 12:48:17.152959 (Thread-411): 12:48:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303bb0d0>]}
+2022-09-30 12:48:17.154142 (Thread-411): sending response (<Response 29706 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:17.774594 (Thread-412): handling poll request
+2022-09-30 12:48:17.775023 (Thread-412): 12:48:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303bb8b0>]}
+2022-09-30 12:48:17.776901 (Thread-412): sending response (<Response 58325 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:18.495196 (Thread-413): handling status request
+2022-09-30 12:48:18.495601 (Thread-413): 12:48:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303bb460>]}
+2022-09-30 12:48:18.496794 (Thread-413): sending response (<Response 29706 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:18.709141 (Thread-414): handling status request
+2022-09-30 12:48:18.709541 (Thread-414): 12:48:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303bb160>]}
+2022-09-30 12:48:18.710712 (Thread-414): sending response (<Response 29706 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:19.775652 (Thread-415): handling status request
+2022-09-30 12:48:19.776069 (Thread-415): 12:48:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303bb4f0>]}
+2022-09-30 12:48:19.777211 (Thread-415): sending response (<Response 29682 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:19.782018 (Thread-416): handling list request
+2022-09-30 12:48:19.782277 (Thread-416): 12:48:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303bb6d0>]}
+2022-09-30 12:48:19.814305 (Thread-416): 12:48:19  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303cb2b0>]}
+2022-09-30 12:48:19.814781 (Thread-416): 12:48:19  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 12:48:19.815092 (Thread-416): 12:48:19  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230451040>]}
+2022-09-30 12:48:19.817018 (Thread-416): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:34.275779 (Thread-417): 12:48:34  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-30 12:48:34.276172 (Thread-417): 12:48:34  Partial parsing: updated file: de_zoomcamp_final_project://models/staging/stg_process_data_2019.sql
+2022-09-30 12:48:34.280795 (Thread-417): 12:48:34  1699: static parser successfully parsed staging/stg_process_data_2019.sql
+2022-09-30 12:48:34.336807 (Thread-417): 12:48:34  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230262b20>]}
+2022-09-30 12:48:34.822888 (Thread-418): handling status request
+2022-09-30 12:48:34.823343 (Thread-418): 12:48:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303b6700>]}
+2022-09-30 12:48:34.823846 (Thread-418): sending response (<Response 1613 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:34.828388 (Thread-419): handling list request
+2022-09-30 12:48:34.828655 (Thread-419): 12:48:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f723024da30>]}
+2022-09-30 12:48:34.858490 (Thread-419): 12:48:34  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72302d7850>]}
+2022-09-30 12:48:34.858991 (Thread-419): 12:48:34  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 12:48:34.859275 (Thread-419): 12:48:34  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f723043d5b0>]}
+2022-09-30 12:48:34.861212 (Thread-419): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:34.942972 (Thread-420): handling status request
+2022-09-30 12:48:34.943243 (Thread-420): 12:48:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230398850>]}
+2022-09-30 12:48:34.943629 (Thread-420): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:35.043624 (Thread-421): handling status request
+2022-09-30 12:48:35.043898 (Thread-421): 12:48:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72302d7910>]}
+2022-09-30 12:48:35.044290 (Thread-421): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:37.779550 (Thread-422): handling status request
+2022-09-30 12:48:37.779947 (Thread-422): 12:48:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72302d7070>]}
+2022-09-30 12:48:37.799755 (Thread-422): sending response (<Response 1613 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:37.804103 (Thread-423): handling list request
+2022-09-30 12:48:37.804402 (Thread-423): 12:48:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230487640>]}
+2022-09-30 12:48:37.825653 (Thread-423): 12:48:37  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230262970>]}
+2022-09-30 12:48:37.826107 (Thread-423): 12:48:37  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 12:48:37.826379 (Thread-423): 12:48:37  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72302d7940>]}
+2022-09-30 12:48:37.828262 (Thread-423): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:47.064572 (Thread-424): 12:48:47  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-30 12:48:47.064936 (Thread-424): 12:48:47  Partial parsing: updated file: de_zoomcamp_final_project://models/staging/stg_process_data_2019.sql
+2022-09-30 12:48:47.070086 (Thread-424): 12:48:47  1699: static parser successfully parsed staging/stg_process_data_2019.sql
+2022-09-30 12:48:47.112389 (Thread-424): 12:48:47  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72301623a0>]}
+2022-09-30 12:48:47.594564 (Thread-425): handling status request
+2022-09-30 12:48:47.595039 (Thread-425): 12:48:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303d15e0>]}
+2022-09-30 12:48:47.595546 (Thread-425): sending response (<Response 1613 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:47.600200 (Thread-426): handling list request
+2022-09-30 12:48:47.600518 (Thread-426): 12:48:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230421fa0>]}
+2022-09-30 12:48:47.630686 (Thread-426): 12:48:47  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72302679d0>]}
+2022-09-30 12:48:47.631241 (Thread-426): 12:48:47  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 12:48:47.631550 (Thread-426): 12:48:47  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72301a0280>]}
+2022-09-30 12:48:47.633580 (Thread-426): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:47.789540 (Thread-427): handling status request
+2022-09-30 12:48:47.789912 (Thread-427): 12:48:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72302625e0>]}
+2022-09-30 12:48:47.790380 (Thread-427): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:48:47.867725 (Thread-428): handling status request
+2022-09-30 12:48:47.868007 (Thread-428): 12:48:47  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72301cb520>]}
+2022-09-30 12:48:47.868402 (Thread-428): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:49:15.979012 (Thread-429): handling status request
+2022-09-30 12:49:15.979397 (Thread-429): 12:49:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72301cb430>]}
+2022-09-30 12:49:15.979866 (Thread-429): sending response (<Response 1613 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:49:15.984486 (Thread-430): handling list request
+2022-09-30 12:49:15.984747 (Thread-430): 12:49:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72301cb0d0>]}
+2022-09-30 12:49:16.017471 (Thread-430): 12:49:16  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230162790>]}
+2022-09-30 12:49:16.017986 (Thread-430): 12:49:16  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 12:49:16.018273 (Thread-430): 12:49:16  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72301a0b20>]}
+2022-09-30 12:49:16.020280 (Thread-430): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:49:18.388156 (Thread-431): 12:49:18  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-30 12:49:18.388542 (Thread-431): 12:49:18  Partial parsing: updated file: de_zoomcamp_final_project://models/staging/stg_process_data_2021.sql
+2022-09-30 12:49:18.393667 (Thread-431): 12:49:18  1699: static parser successfully parsed staging/stg_process_data_2021.sql
+2022-09-30 12:49:18.438467 (Thread-431): 12:49:18  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72300b5f70>]}
+2022-09-30 12:49:18.954804 (Thread-432): handling status request
+2022-09-30 12:49:18.955242 (Thread-432): 12:49:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72300847f0>]}
+2022-09-30 12:49:18.955742 (Thread-432): sending response (<Response 1613 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:49:18.960589 (Thread-433): handling list request
+2022-09-30 12:49:18.960850 (Thread-433): 12:49:18  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230084670>]}
+2022-09-30 12:49:18.988124 (Thread-433): 12:49:18  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230081d00>]}
+2022-09-30 12:49:18.988766 (Thread-433): 12:49:18  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 12:49:18.989156 (Thread-433): 12:49:18  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72301a0310>]}
+2022-09-30 12:49:18.991960 (Thread-433): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:49:19.058712 (Thread-434): handling status request
+2022-09-30 12:49:19.059161 (Thread-434): 12:49:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230162580>]}
+2022-09-30 12:49:19.059630 (Thread-434): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:49:19.154730 (Thread-435): handling status request
+2022-09-30 12:49:19.155134 (Thread-435): 12:49:19  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230111070>]}
+2022-09-30 12:49:19.155613 (Thread-435): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:50:42.086266 (Thread-436): handling status request
+2022-09-30 12:50:42.088014 (Thread-436): 12:50:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72301116d0>]}
+2022-09-30 12:50:42.088547 (Thread-436): sending response (<Response 1613 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:50:42.092979 (Thread-437): handling list request
+2022-09-30 12:50:42.093237 (Thread-437): 12:50:42  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7230161ca0>]}
+2022-09-30 12:50:42.122829 (Thread-437): 12:50:42  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72300b4520>]}
+2022-09-30 12:50:42.123321 (Thread-437): 12:50:42  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 12:50:42.123600 (Thread-437): 12:50:42  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72300842b0>]}
+2022-09-30 12:50:42.130917 (Thread-437): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:50:58.233076 (Thread-438): 12:50:58  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-30 12:50:58.233471 (Thread-438): 12:50:58  Partial parsing: updated file: de_zoomcamp_final_project://models/staging/stg_process_data_2019.sql
+2022-09-30 12:50:58.238364 (Thread-438): 12:50:58  1699: static parser successfully parsed staging/stg_process_data_2019.sql
+2022-09-30 12:50:58.280735 (Thread-438): 12:50:58  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f721075b640>]}
+2022-09-30 12:50:58.833365 (Thread-439): handling status request
+2022-09-30 12:50:58.833770 (Thread-439): 12:50:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72107b3a30>]}
+2022-09-30 12:50:58.834257 (Thread-439): sending response (<Response 1613 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:50:58.839308 (Thread-440): handling list request
+2022-09-30 12:50:58.839650 (Thread-440): 12:50:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72303d1d90>]}
+2022-09-30 12:50:58.867328 (Thread-440): 12:50:58  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f723009b400>]}
+2022-09-30 12:50:58.867862 (Thread-440): 12:50:58  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 12:50:58.868200 (Thread-440): 12:50:58  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72300b41f0>]}
+2022-09-30 12:50:58.893147 (Thread-440): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:50:58.927848 (Thread-441): handling status request
+2022-09-30 12:50:58.928234 (Thread-441): 12:50:58  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72107b0e80>]}
+2022-09-30 12:50:58.928722 (Thread-441): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:50:59.011142 (Thread-442): handling status request
+2022-09-30 12:50:59.011485 (Thread-442): 12:50:59  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72107cf400>]}
+2022-09-30 12:50:59.011959 (Thread-442): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 12:51:08.803795 (Thread-443): handling status request
+2022-09-30 12:51:08.804206 (Thread-443): 12:51:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f72107cf520>]}
+2022-09-30 12:51:08.804712 (Thread-443): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
