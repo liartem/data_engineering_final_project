@@ -12122,3 +12122,15 @@ limit 1000
 2022-09-30 13:21:03.990812 (Thread-728): handling status request
 2022-09-30 13:21:03.991240 (Thread-728): 13:21:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7210319af0>]}
 2022-09-30 13:21:03.991741 (Thread-728): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:21:07.590917 (Thread-729): 13:21:07  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-09-30 13:21:07.591133 (Thread-729): 13:21:07  Partial parsing enabled, no changes found, skipping parsing
+2022-09-30 13:21:07.596119 (Thread-729): 13:21:07  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d06e0f70>]}
+2022-09-30 13:21:08.268767 (Thread-730): handling status request
+2022-09-30 13:21:08.269169 (Thread-730): 13:21:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d0709400>]}
+2022-09-30 13:21:08.269653 (Thread-730): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:21:08.342753 (Thread-731): handling status request
+2022-09-30 13:21:08.343051 (Thread-731): 13:21:08  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07091f0>]}
+2022-09-30 13:21:08.343428 (Thread-731): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:30:46.933440 (Thread-732): handling status request
+2022-09-30 13:30:46.935080 (Thread-732): 13:30:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d0709700>]}
+2022-09-30 13:30:46.935582 (Thread-732): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
