@@ -12134,3 +12134,235 @@ limit 1000
 2022-09-30 13:30:46.933440 (Thread-732): handling status request
 2022-09-30 13:30:46.935080 (Thread-732): 13:30:46  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d0709700>]}
 2022-09-30 13:30:46.935582 (Thread-732): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:30:49.682976 (Thread-733): 13:30:49  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-09-30 13:30:49.683192 (Thread-733): 13:30:49  Partial parsing enabled, no changes found, skipping parsing
+2022-09-30 13:30:49.688241 (Thread-733): 13:30:49  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d061d610>]}
+2022-09-30 13:30:50.494096 (Thread-734): handling status request
+2022-09-30 13:30:50.494534 (Thread-734): 13:30:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d06d0e80>]}
+2022-09-30 13:30:50.514672 (Thread-734): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:30:50.673934 (Thread-735): handling status request
+2022-09-30 13:30:50.674335 (Thread-735): 13:30:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d06d0a90>]}
+2022-09-30 13:30:50.674813 (Thread-735): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:34.394754 (Thread-736): handling ps request
+2022-09-30 13:38:34.395208 (Thread-736): 13:38:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d06d02b0>]}
+2022-09-30 13:38:34.398189 (Thread-736): sending response (<Response 41145 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:34.602943 (Thread-737): handling status request
+2022-09-30 13:38:34.603340 (Thread-737): 13:38:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07a2a30>]}
+2022-09-30 13:38:34.603818 (Thread-737): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:34.784196 (Thread-738): handling status request
+2022-09-30 13:38:34.784585 (Thread-738): 13:38:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07a28e0>]}
+2022-09-30 13:38:34.785065 (Thread-738): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:34.890947 (Thread-739): handling status request
+2022-09-30 13:38:34.891357 (Thread-739): 13:38:34  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07a2220>]}
+2022-09-30 13:38:34.891857 (Thread-739): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:35.434793 (Thread-740): handling poll request
+2022-09-30 13:38:35.435216 (Thread-740): 13:38:35  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07a2250>]}
+2022-09-30 13:38:35.437260 (Thread-740): sending response (<Response 58439 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:36.891090 (Thread-741): handling status request
+2022-09-30 13:38:36.891499 (Thread-741): 13:38:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07a2070>]}
+2022-09-30 13:38:36.891989 (Thread-741): sending response (<Response 1249 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:36.896393 (Thread-742): handling list request
+2022-09-30 13:38:36.896655 (Thread-742): 13:38:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07a24c0>]}
+2022-09-30 13:38:36.939328 (Thread-742): 13:38:36  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d06d0b80>]}
+2022-09-30 13:38:36.939789 (Thread-742): 13:38:36  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 13:38:36.940104 (Thread-742): 13:38:36  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71f056ad60>]}
+2022-09-30 13:38:36.942069 (Thread-742): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:37.335184 (Thread-743): handling status request
+2022-09-30 13:38:37.335600 (Thread-743): 13:38:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07a2130>]}
+2022-09-30 13:38:37.336116 (Thread-743): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:37.436080 (Thread-744): handling status request
+2022-09-30 13:38:37.436493 (Thread-744): 13:38:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d0799400>]}
+2022-09-30 13:38:37.436965 (Thread-744): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:37.591571 (Thread-745): handling status request
+2022-09-30 13:38:37.592004 (Thread-745): 13:38:37  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d0799f40>]}
+2022-09-30 13:38:37.592481 (Thread-745): sending response (<Response 1273 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:57.035045 (Thread-746): handling status request
+2022-09-30 13:38:57.035472 (Thread-746): 13:38:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d0799490>]}
+2022-09-30 13:38:57.035977 (Thread-746): sending response (<Response 1249 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:38:57.040349 (Thread-747): handling list request
+2022-09-30 13:38:57.040654 (Thread-747): 13:38:57  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07a2c40>]}
+2022-09-30 13:38:57.066502 (Thread-747): 13:38:57  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71f0561e20>]}
+2022-09-30 13:38:57.066981 (Thread-747): 13:38:57  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 13:38:57.067283 (Thread-747): 13:38:57  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71f0523a90>]}
+2022-09-30 13:38:57.069265 (Thread-747): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:16.889079 (Thread-748): 13:39:16  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-30 13:39:16.889458 (Thread-748): 13:39:16  Partial parsing: updated file: de_zoomcamp_final_project://models/staging/stg_process_data_2019.sql
+2022-09-30 13:39:16.894645 (Thread-748): 13:39:16  1699: static parser successfully parsed staging/stg_process_data_2019.sql
+2022-09-30 13:39:16.956853 (Thread-748): 13:39:16  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05f2f10>]}
+2022-09-30 13:39:17.440269 (Thread-749): handling status request
+2022-09-30 13:39:17.440700 (Thread-749): 13:39:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d0754910>]}
+2022-09-30 13:39:17.441212 (Thread-749): sending response (<Response 1613 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:17.446213 (Thread-750): handling list request
+2022-09-30 13:39:17.446481 (Thread-750): 13:39:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d07096d0>]}
+2022-09-30 13:39:17.470210 (Thread-750): 13:39:17  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7210319a60>]}
+2022-09-30 13:39:17.470699 (Thread-750): 13:39:17  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 13:39:17.471015 (Thread-750): 13:39:17  Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d06d04c0>]}
+2022-09-30 13:39:17.472993 (Thread-750): sending response (<Response 2729 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:17.576957 (Thread-751): handling status request
+2022-09-30 13:39:17.577230 (Thread-751): 13:39:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f721027cca0>]}
+2022-09-30 13:39:17.577620 (Thread-751): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:17.677364 (Thread-752): handling status request
+2022-09-30 13:39:17.677638 (Thread-752): 13:39:17  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05d0850>]}
+2022-09-30 13:39:17.678031 (Thread-752): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:21.201650 (Thread-753): handling status request
+2022-09-30 13:39:21.202071 (Thread-753): 13:39:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05d0190>]}
+2022-09-30 13:39:21.202570 (Thread-753): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:21.480914 (Thread-754): handling run_sql request
+2022-09-30 13:39:21.481194 (Thread-754): 13:39:21  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05d0be0>]}
+2022-09-30 13:39:23.894790 (Thread-754): sending response (<Response 140 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:23.922083 (MainThread): 13:39:23  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '497ed1a8-ccbe-4766-a2b2-104c924eaacb', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fbd85448dc0>]}
+2022-09-30 13:39:23.922699 (MainThread): 13:39:23  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 13:39:23.923298 (Thread-1): 13:39:23  Acquiring new bigquery connection "rpc.de_zoomcamp_final_project.request"
+2022-09-30 13:39:23.923438 (Thread-1): 13:39:23  Began compiling node rpc.de_zoomcamp_final_project.request
+2022-09-30 13:39:23.923526 (Thread-1): 13:39:23  Compiling rpc.de_zoomcamp_final_project.request
+2022-09-30 13:39:23.926021 (Thread-1): 13:39:23  finished collecting timing info
+2022-09-30 13:39:23.926155 (Thread-1): 13:39:23  Began executing node rpc.de_zoomcamp_final_project.request
+2022-09-30 13:39:23.926259 (Thread-1): 13:39:23  Opening a new connection, currently in state init
+2022-09-30 13:39:23.930745 (Thread-1): 13:39:23  On rpc.de_zoomcamp_final_project.request: 
+
+select 
+CountryCode,
+Year,
+SubmissionYear, 
+Category_name as Category, 
+Scenario, 
+Gas,
+cast(`Reported Value` as numeric) as Reported_Value
+
+from `de-zoomcamp-artem`.`final_project_raw_data`.`GHG_projections_2019`
+limit 1000
+2022-09-30 13:39:24.196669 (Thread-755): handling poll request
+2022-09-30 13:39:24.197161 (Thread-755): 13:39:24  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05f0670>]}
+2022-09-30 13:39:24.198100 (Thread-755): sending response (<Response 3755 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:24.317029 (Thread-1): 13:39:24  BigQuery adapter: Retry attempt 1 of 1 after error: BadRequest('Unrecognized name: `Reported Value`; Did you mean Reported_Value? at [10:6]')
+2022-09-30 13:39:25.470327 (Thread-756): handling poll request
+2022-09-30 13:39:25.470754 (Thread-756): 13:39:25  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05f0790>]}
+2022-09-30 13:39:25.471337 (Thread-756): sending response (<Response 799 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:25.653444 (Thread-1): 13:39:25  finished collecting timing info
+2022-09-30 13:39:25.653649 (Thread-1): Got an exception: Database Error
+  Unrecognized name: `Reported Value`; Did you mean Reported_Value? at [10:6]
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 194, in exception_handler
+    yield
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/retry.py", line 190, in retry_target
+    return target()
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 412, in fn
+    return self._query_and_results(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 596, in _query_and_results
+    iterator = query_job.result(timeout=job_execution_timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/query.py", line 1303, in result
+    super(QueryJob, self).result(retry=retry, timeout=timeout)
+  File "/usr/local/lib/python3.8/dist-packages/google/cloud/bigquery/job/base.py", line 679, in result
+    return super(_AsyncJob, self).result(timeout=timeout, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/google/api_core/future/polling.py", line 137, in result
+    raise self._exception
+google.api_core.exceptions.BadRequest: 400 Unrecognized name: `Reported Value`; Did you mean Reported_Value? at [10:6]
+
+(job ID: fa6cf3d5-e725-459f-a6a7-86d7b44f6620)
+
+                       -----Query Job SQL Follows-----                       
+
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+   1:
+   2:
+   3:select 
+   4:CountryCode,
+   5:Year,
+   6:SubmissionYear, 
+   7:Category_name as Category, 
+   8:Scenario, 
+   9:Gas,
+  10:cast(`Reported Value` as numeric) as Reported_Value
+  11:
+  12:from `de-zoomcamp-artem`.`final_project_raw_data`.`GHG_projections_2019`
+  13:limit 1000
+    |    .    |    .    |    .    |    .    |    .    |    .    |    .    |
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 384, in safe_run
+    result = self.compile_and_execute(manifest, ctx)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 337, in compile_and_execute
+    result = self.run(ctx.node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 428, in run
+    return self.execute(compiled_node, manifest)
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 90, in execute
+    _, execute_result = self.adapter.execute(
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/base/impl.py", line 242, in execute
+    return self.connections.execute(sql=sql, auto_begin=auto_begin, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 429, in execute
+    query_job, iterator = self.raw_execute(sql, fetch=fetch)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 420, in raw_execute
+    query_job, iterator = self._retry_and_handle(msg=sql, conn=conn, fn=fn)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 611, in _retry_and_handle
+    return retry.retry_target(
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 198, in exception_handler
+    self.handle_error(e, message)
+  File "/usr/local/lib/python3.8/dist-packages/dbt/adapters/bigquery/connections.py", line 186, in handle_error
+    raise DatabaseException(error_msg)
+dbt.exceptions.DatabaseException: Database Error
+  Unrecognized name: `Reported Value`; Did you mean Reported_Value? at [10:6]
+2022-09-30 13:39:25.655534 (Thread-1): Got exception RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: `Reported Value`; Did you mean Reported_Value? at [10:6]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nselect \r\nCountryCode,\r\nYear,\r\nSubmissionYear, \r\nCategory_name as Category, \r\nScenario, \r\nGas,\r\ncast(`Reported Value` as numeric) as Reported_Value\r\n\r\nfrom {{ source('staging', 'GHG_projections_2019') }}\r\nlimit 1000", 'compiled_sql': '\n\nselect \nCountryCode,\nYear,\nSubmissionYear, \nCategory_name as Category, \nScenario, \nGas,\ncast(`Reported Value` as numeric) as Reported_Value\n\nfrom `de-zoomcamp-artem`.`final_project_raw_data`.`GHG_projections_2019`\nlimit 1000', 'tags': None}, None)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/task/sql_commands.py", line 147, in _in_thread
+    self.node_results.append(runner.safe_run(self.manifest))
+  File "/usr/local/lib/python3.8/dist-packages/dbt/task/base.py", line 402, in safe_run
+    result = self.error_result(ctx.node, error, started, [])
+  File "/usr/local/lib/python3.8/dist-packages/dbt_rpc/rpc/node_runners.py", line 56, in error_result
+    raise error
+dbt_rpc.rpc.error.RPCException: RPCException(10003, Database Error, {'type': 'DatabaseException', 'message': 'Database Error in rpc request (from remote system)\n  Unrecognized name: `Reported Value`; Did you mean Reported_Value? at [10:6]', 'raw_sql': "{{ config(materialized='table') }}\r\n\r\nselect \r\nCountryCode,\r\nYear,\r\nSubmissionYear, \r\nCategory_name as Category, \r\nScenario, \r\nGas,\r\ncast(`Reported Value` as numeric) as Reported_Value\r\n\r\nfrom {{ source('staging', 'GHG_projections_2019') }}\r\nlimit 1000", 'compiled_sql': '\n\nselect \nCountryCode,\nYear,\nSubmissionYear, \nCategory_name as Category, \nScenario, \nGas,\ncast(`Reported Value` as numeric) as Reported_Value\n\nfrom `de-zoomcamp-artem`.`final_project_raw_data`.`GHG_projections_2019`\nlimit 1000', 'tags': None}, None)
+2022-09-30 13:39:26.736073 (Thread-757): handling poll request
+2022-09-30 13:39:26.736507 (Thread-757): 13:39:26  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05f09d0>]}
+2022-09-30 13:39:26.737153 (Thread-757): sending response (<Response 11683 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:36.343127 (Thread-758): handling status request
+2022-09-30 13:39:36.343539 (Thread-758): 13:39:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05f0df0>]}
+2022-09-30 13:39:36.371410 (Thread-758): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:36.634889 (Thread-759): handling run_sql request
+2022-09-30 13:39:36.635219 (Thread-759): 13:39:36  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05f0dc0>]}
+2022-09-30 13:39:39.004993 (Thread-759): sending response (<Response 140 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:39.032398 (MainThread): 13:39:39  Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'cae80e32-2f99-4663-9069-4e5075a8db1e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efd5828afa0>]}
+2022-09-30 13:39:39.033041 (MainThread): 13:39:39  Found 2 models, 0 tests, 0 snapshots, 0 analyses, 285 macros, 0 operations, 0 seed files, 2 sources, 0 exposures, 0 metrics
+2022-09-30 13:39:39.033622 (Thread-1): 13:39:39  Acquiring new bigquery connection "rpc.de_zoomcamp_final_project.request"
+2022-09-30 13:39:39.033764 (Thread-1): 13:39:39  Began compiling node rpc.de_zoomcamp_final_project.request
+2022-09-30 13:39:39.033852 (Thread-1): 13:39:39  Compiling rpc.de_zoomcamp_final_project.request
+2022-09-30 13:39:39.036382 (Thread-1): 13:39:39  finished collecting timing info
+2022-09-30 13:39:39.036519 (Thread-1): 13:39:39  Began executing node rpc.de_zoomcamp_final_project.request
+2022-09-30 13:39:39.036622 (Thread-1): 13:39:39  Opening a new connection, currently in state init
+2022-09-30 13:39:39.041141 (Thread-1): 13:39:39  On rpc.de_zoomcamp_final_project.request: 
+
+select 
+CountryCode,
+Year,
+SubmissionYear, 
+Category_name as Category, 
+Scenario, 
+Gas,
+cast(`Reported_Value` as numeric) as Reported_Value
+
+from `de-zoomcamp-artem`.`final_project_raw_data`.`GHG_projections_2019`
+limit 100
+2022-09-30 13:39:39.288811 (Thread-760): handling poll request
+2022-09-30 13:39:39.289244 (Thread-760): 13:39:39  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05f0f70>]}
+2022-09-30 13:39:39.290125 (Thread-760): sending response (<Response 3754 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:39:40.340005 (Thread-1): 13:39:40  finished collecting timing info
+2022-09-30 13:39:40.555590 (Thread-761): handling poll request
+2022-09-30 13:39:40.556003 (Thread-761): 13:39:40  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05ea880>]}
+2022-09-30 13:39:40.557472 (Thread-761): sending response (<Response 13346 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:40:02.522516 (Thread-762): 13:40:02  Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+2022-09-30 13:40:02.522964 (Thread-762): 13:40:02  Partial parsing: updated file: de_zoomcamp_final_project://models/staging/stg_process_data_2019.sql
+2022-09-30 13:40:02.528027 (Thread-762): 13:40:02  1699: static parser successfully parsed staging/stg_process_data_2019.sql
+2022-09-30 13:40:02.575207 (Thread-762): 13:40:02  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d04ebac0>]}
+2022-09-30 13:40:03.203567 (Thread-763): handling status request
+2022-09-30 13:40:03.204076 (Thread-763): 13:40:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d05c27c0>]}
+2022-09-30 13:40:03.204601 (Thread-763): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:40:03.277602 (Thread-764): handling status request
+2022-09-30 13:40:03.277973 (Thread-764): 13:40:03  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d04cbf70>]}
+2022-09-30 13:40:03.278444 (Thread-764): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
+2022-09-30 13:40:30.926096 (Thread-765): handling status request
+2022-09-30 13:40:30.926504 (Thread-765): 13:40:30  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': 'f5896eb6-32d2-4bf5-badf-778dd7bda16e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71d04cbbb0>]}
+2022-09-30 13:40:30.927020 (Thread-765): sending response (<Response 1637 bytes [200 OK]>) to 10.0.44.250
