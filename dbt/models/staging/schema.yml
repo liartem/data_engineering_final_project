@@ -8,7 +8,14 @@ sources:
       tables: 
         - name: GHG_projections_2021
         - name: GHG_projections_2019
-      
+
+    - name: processed_data
+      database: de-zoomcamp-artem
+      schema: production_final_project 
+
+      tables: 
+        - name: stg_process_data_2019
+        - name: stg_process_data_2021
 models:
   - name: dbt_transform
     description: ''
