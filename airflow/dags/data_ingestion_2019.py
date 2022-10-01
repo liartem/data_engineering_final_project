@@ -14,9 +14,9 @@ from glom import glom
 import pyarrow.parquet as pq
 import pyarrow.csv as pv
 
-YEAR = 2021
+YEAR = 2019
 path_to_local_home = os.environ.get("AIRFLOW_HOME", "/opt/airflow/")
-url = f"https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-8/2021-preliminary-ghg-projections-reported/ghg_projections_2021_preliminary_csv/at_download/file"
+url = f"https://www.eea.europa.eu/data-and-maps/data/greenhouse-gas-emission-projections-for-8/copy_of_greenhouse-gas-emission-projections-in/ghg_projections_v4_csv/at_download/file"
 
 file_name_zip = f"GHG_projections_{YEAR}_EEA.zip"
 file_name_csv = f"GHG_projections_{YEAR}_EEA.csv"
