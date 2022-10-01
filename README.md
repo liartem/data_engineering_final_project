@@ -1,5 +1,5 @@
 # data_engineering_final_project
-`The final project from data engineering zoomcamp from DataTalksClub`
+`The final project is currently under development. The documentation will be added in some days`
 
 # Terraform (IaC)
 
