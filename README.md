@@ -1,6 +1,11 @@
 # data_engineering_final_project
 `The final project is currently under development. The documentation will be added in some days`
 
+# Demo
+
+![li_artem_data_engineering_demo](https://user-images.githubusercontent.com/54916420/193452868-1c7bdc12-0e71-4faf-9b9f-3b65b41e0df0.gif)
+
+
 # Terraform (IaC)
 
 before the initializing infrustructure, it is necessary to run:  <br/>
