@@ -1,9 +1,17 @@
-# data_engineering_final_project
-`The final project is currently under development. The documentation will be added in some days`
+# Problem description
+The project analyzed the *projected* Green House Gases (GHG) emission of EU member states from 2 given time periods (2019 and 2021). The EU countries are obligated to report its GHG projections ‘with existing measures’ scenario  <br/> 
+This project has been done as part of data angineering zoomcamp from [DataTalksClub](https://github.com/DataTalksClub/data-engineering-zoomcamp) completed in *self-paced* mode. 
+
+
+# Technical overview
+The service is operated ib the [GCP](https://cloud.google.com/) cloud virtual machine. The infrustructure is managed by [Terraform](https://www.terraform.io/). 
+The created service fetches the data from external data [source](https://data.europa.eu/data/datasets/dat-2-en?locale=en) for 2019 and 2021 reported years, extract the data to google cloud [storage](https://cloud.google.com/storage), connects [BigQuery](https://cloud.google.com/bigquery),  make the structure for data with [dbt](https://www.getdbt.com/) and builds [dashboards](https://datastudio.google.com/reporting/b71a8a3a-481d-4c66-8729-ebbe82c71abe) with Google Data [Studio](https://datastudio.google.com/u/0/).
+
+All pipelines are orchestrated with help of Apache [Airflow](https://airflow.apache.org/).
 
 # Demo
 
-![li_artem_data_engineering_demo](https://user-images.githubusercontent.com/54916420/193452868-1c7bdc12-0e71-4faf-9b9f-3b65b41e0df0.gif)
+![li_artem_data_engineering_demo](https://user-images.githubusercontent.com/54916420/193453147-1cacfab5-c31d-4792-9aa3-6193c61f9a60.gif)
 
 
 # Terraform (IaC)
