@@ -1,3 +1,6 @@
+![datsystem_design_data_engineering_li_artem](https://user-images.githubusercontent.com/54916420/193460925-5458dc6b-968a-43e9-bfcf-b303552bf6d9.jpg)
+
+
 # Problem description
 The project analyzed the *projected* Green House Gases (GHG) emission of EU member states from 2 given time periods (2019 and 2021). The EU countries are obligated to report its GHG projections ‘with existing measures’ scenario  <br/> 
 This project has been done as part of data angineering zoomcamp from [DataTalksClub](https://github.com/DataTalksClub/data-engineering-zoomcamp) completed in *self-paced* mode. 
