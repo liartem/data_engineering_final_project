@@ -5,9 +5,9 @@ This project has been done as part of data angineering zoomcamp from [DataTalksC
 
 # Technical overview
 The service is operated ib the [GCP](https://cloud.google.com/) cloud virtual machine. The infrustructure is managed by [Terraform](https://www.terraform.io/). 
-The created service fetches the data from external data [source](https://data.europa.eu/data/datasets/dat-2-en?locale=en) for 2019 and 2021 reported years, extract the data to google cloud [storage](https://cloud.google.com/storage), connects [BigQuery](https://cloud.google.com/bigquery),  make the structure for data with [dbt](https://www.getdbt.com/) and builds [dashboards](https://datastudio.google.com/reporting/b71a8a3a-481d-4c66-8729-ebbe82c71abe) with Google Data [Studio](https://datastudio.google.com/u/0/).
+The created service **extract** the data from external data [source](https://data.europa.eu/data/datasets/dat-2-en?locale=en) for 2019 and 2021 reported years, **load** the data to google cloud [storage](https://cloud.google.com/storage), connects [BigQuery](https://cloud.google.com/bigquery), **transform** (make the structure for data with) [dbt](https://www.getdbt.com/) and builds [dashboards](https://datastudio.google.com/reporting/b71a8a3a-481d-4c66-8729-ebbe82c71abe) with Google Data [Studio](https://datastudio.google.com/u/0/).
 
-All pipelines are orchestrated with help of Apache [Airflow](https://airflow.apache.org/).
+All pipelines are orchestrated with help of Apache [Airflow](https://airflow.apache.org/), which starts from [Docker](https://www.docker.com/).
 
 # Demo
 
