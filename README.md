@@ -9,9 +9,9 @@ This project has been done as part of **data engineering zoomcamp** from [DataTa
 ![datsystem_design_data_engineering_li_artem](https://user-images.githubusercontent.com/54916420/193460925-5458dc6b-968a-43e9-bfcf-b303552bf6d9.jpg)
 
 The service is operated ib the [GCP](https://cloud.google.com/) cloud virtual machine. The infrustructure is managed by [Terraform](https://www.terraform.io/). 
-The created service **extract** the data from external data [source](https://data.europa.eu/data/datasets/dat-2-en?locale=en) for 2019 and 2021 reported years *(download_dataset_task, unzip_data_file_task, convert_to_parquet_task)*, **load** the data to google cloud [storage](https://cloud.google.com/storage) *(upload_to_gcs_task, bigquery_exernal_table_task)* , connects [BigQuery](https://cloud.google.com/bigquery), **transform** (make the structure for data with) [dbt](https://www.getdbt.com/) and builds [dashboards](https://datastudio.google.com/reporting/b71a8a3a-481d-4c66-8729-ebbe82c71abe) with Google Data [Studio](https://datastudio.google.com/u/0/).
+The created service **extract** the data from external data [source](https://data.europa.eu/data/datasets/dat-2-en?locale=en) for 2019 and 2021 reported years *(download_dataset_task, unzip_data_file_task, convert_to_parquet_task)*, **load** the data to google cloud [storage](https://cloud.google.com/storage) *(upload_to_gcs_task, bigquery_exernal_table_task)* , connects [BigQuery](https://cloud.google.com/bigquery), **transform** (make the structure for data with) [dbt](https://www.getdbt.com/) and builds [dashboards](https://datastudio.google.com/reporting/b71a8a3a-481d-4c66-8729-ebbe82c71abe) with Google Data [Studio](https://datastudio.google.com/u/0/). 
 
-All pipelines are orchestrated with help of Apache [Airflow](https://airflow.apache.org/), which starts from [Docker](https://www.docker.com/).
+All pipelines are orchestrated with help of Apache [Airflow](https://airflow.apache.org/), which starts from [Docker](https://www.docker.com/). The processing is done in **batch** mode, **extract** and **load** stages are orchestrated by airflow, **transform** stage is orchestrated with dbt. 
 
 
 # Demo
