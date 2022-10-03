@@ -13,10 +13,12 @@ The created service **extract** the data from external data [source](https://dat
 
 All pipelines are orchestrated with help of Apache [Airflow](https://airflow.apache.org/), which starts from [Docker](https://www.docker.com/). The processing is done in ***batch*** mode, **extract** and **load** stages are orchestrated by airflow, **transform** stage is orchestrated with dbt. 
 
+# Dashboards
+The final results also available here (https://datastudio.google.com/reporting/b71a8a3a-481d-4c66-8729-ebbe82c71abe)
 
 # Demo
 The projected demo presents the visualization step - the final stage of the whole pipeline.
-The final results also available **[here](https://datastudio.google.com/reporting/b71a8a3a-481d-4c66-8729-ebbe82c71abe)**
+
 ![li_artem_data_engineering_demo](https://user-images.githubusercontent.com/54916420/193453147-1cacfab5-c31d-4792-9aa3-6193c61f9a60.gif)
 
 # Possibility for improvements and bugs
